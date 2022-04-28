@@ -1,47 +1,45 @@
 const inquirer = require('inquirer');
+const { writeReadMe, generateMarkdown } = require('./utils/generateMarkdown')
+const fs = require('fs');
+
 
 const promptUser = () => {
     return inquirer.prompt([
         {
             type: 'input',
             name: 'projectTitle',
-            message: 'What is the project title'
+            message: 'What is the project title? '
         },
         {
             type: 'input',
             name: 'description',
-            message: 'Write a brief description of your project'
+            message: 'Write a brief description of your project: '
         },
         {
             type: 'input',
             name: 'installation',
-            message: 'Describe the installation process if any'
+            message: 'Describe the installation process if any: '
         },
         {
             type: 'input',
             name: 'usage',
-            message: 'What is this project used for'
+            message: 'What is this project used for? '
         },
         {
             type: 'list',
             name: 'license',
-            message: 'Chose the appropriate license for this project:',
+            message: 'Chose the appropriate license for this project: ',
             choices: ['Apache', 'Academic', 'GNU', 'ISC', 'MIT', 'Mozilla', 'Open']
         },
         {
             type: 'input',
             name: 'contributors',
-            message: 'Who are the contributors of this projects'
+            message: 'Who are the contributors of this projects? '
         },
         {
             type: 'input',
             name: 'test',
-            message: 'Describe the test instructions'
-        },
-        {
-            type: "input",
-            name: "questions",
-            message: "incase of questions, contact"
+            message: 'Describe the test instructions: '
         },
         {
             type: "input",
@@ -56,8 +54,10 @@ const promptUser = () => {
     ])
 }
 
-
-
-
-
 promptUser()
+    .then(answer => {
+        return generateMarkdown(answer)
+    })
+    .then(data => {
+        return writeReadMe(data)
+    })
