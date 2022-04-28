@@ -1,8 +1,8 @@
 
-  <h1 align="center">A node.js Application 👋</h1>
+  <h1 align="center">Node.js Readme  👋</h1>
 
 ## Description
-  🔍 A node js Application
+  🔍 This project helps generate readme
 
 ## Table of Content
 - [Description](#description)
@@ -14,19 +14,20 @@
 - [Questions](#questions)
 
 ## Installation
-  💾 npm install inquirer used
+  💾 npm install inquirer is required
 
 ## Usage
-  💻 node.js training
+  💻 To generate readme
 
 ## License
+  [badge](https://img.shields.io/badge/license-MIT-brightgreen)
   This application is covered by the MIT license
 
 ## Contributors
   👪 Blessing Igbadumhe
 
 ## Tests
-  No test where included
+  ✏️ No test included
 
 ## Questions
   ✋ Find me on github using: [blessingi](https://github.com/blessingi)
