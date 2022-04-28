@@ -1,8 +1,8 @@
 
-  <h1 align="center">project Generator 👋</h1>
+  <h1 align="center">A node.js Application 👋</h1>
 
 ## Description
-  🔍 my project is good
+  🔍 A node js Application
 
 ## Table of Content
 - [Description](#description)
@@ -14,20 +14,22 @@
 - [Questions](#questions)
 
 ## Installation
-  💾 install my clonning
+  💾 npm install inquirer used
 
 ## Usage
-  💻 to do what ever
+  💻 node.js training
 
 ## License
-  GNU
+  This application is covered by the MIT license
 
 ## Contributors
   👪 Blessing Igbadumhe
 
 ## Tests
-  none
+  No test where included
 
 ## Questions
-  ✋ Find me on github using blessingi. My email address is bigbadumhe@gmail.com
+  ✋ Find me on github using: [blessingi](https://github.com/blessingi)
+  <br>
+  ✉️ My email address: bigbadumhe@gmail.com
 

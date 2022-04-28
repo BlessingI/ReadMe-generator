@@ -40,7 +40,7 @@ function generateMarkdown(data) {
   💻 ${data.usage}
 
 ## License
-  ${data.license}
+  This application is covered by the ${data.license} license
 
 ## Contributors
   👪 ${data.contributors}
@@ -49,7 +49,9 @@ function generateMarkdown(data) {
   ${data.test}
 
 ## Questions
-  ✋ Find me on github using ${data.username}. My email address is ${data.email}
+  ✋ Find me on github using: [${data.username}](https://github.com/${data.username})
+  <br>
+  ✉️ My email address: ${data.email}
 
 `;
 }
