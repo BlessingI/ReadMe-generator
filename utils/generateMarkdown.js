@@ -46,7 +46,7 @@ function generateMarkdown(data) {
   👪 ${data.contributors}
 
 ## Tests
-  ${data.test}
+  ✏️ ${data.test}
 
 ## Questions
   ✋ Find me on github using: [${data.username}](https://github.com/${data.username})
