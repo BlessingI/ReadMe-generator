@@ -1,8 +1,8 @@
 
-  <h1 align="center">Node.js Readme  👋</h1>
+  <h1 align="center">Readme generator 👋</h1>
 
 ## Description
-  🔍 This project helps generate readme
+  🔍 To generate readme
 
 ## Table of Content
 - [Description](#description)
@@ -14,13 +14,14 @@
 - [Questions](#questions)
 
 ## Installation
-  💾 npm install inquirer is required
+  💾 npm install requirer needed
 
 ## Usage
-  💻 To generate readme
+  💻 to generate readme
 
 ## License
-  [badge](https://img.shields.io/badge/license-MIT-brightgreen)
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+  <br>
   This application is covered by the MIT license
 
 ## Contributors

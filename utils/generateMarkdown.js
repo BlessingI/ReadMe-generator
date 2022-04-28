@@ -40,7 +40,8 @@ function generateMarkdown(data) {
   💻 ${data.usage}
 
 ## License
-  [badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+  <br>
   This application is covered by the ${data.license} license
 
 ## Contributors
