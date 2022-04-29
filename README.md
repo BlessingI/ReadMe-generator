@@ -42,6 +42,7 @@ THEN I am taken to the corresponding section of the README
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Image](#image)
 - [Contributing](#contributors)
 - [Repo](#repo)
 
