@@ -1,8 +1,10 @@
 
-  <h1 align="center">Readme generator 👋</h1>
+  <h1 align="center">README Generator Using node.js 👋</h1>
+
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
 ## Description
-  🔍 To generate readme
+  🔍 A node.js application that creates a generated README.md file to the dist directory
 
 ## Table of Content
 - [Description](#description)
@@ -14,10 +16,10 @@
 - [Questions](#questions)
 
 ## Installation
-  💾 npm install requirer needed
+  💾 npm install inquirer is required
 
 ## Usage
-  💻 to generate readme
+  💻 This project is to generate ReadMe for our github Repo
 
 ## License
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
@@ -28,10 +30,10 @@
   👪 Blessing Igbadumhe
 
 ## Tests
-  ✏️ No test included
+  ✏️ None
 
 ## Questions
-  ✋ Find me on github using: [blessingi](https://github.com/blessingi)
+  ✋ Find me on github using: [blessingI](https://github.com/blessingI)
   <br>
   ✉️ My email address: bigbadumhe@gmail.com
 
