@@ -53,7 +53,7 @@ function generateMarkdown(data) {
   ✏️ ${data.test}
 
 ## Questions
-  ✋ Find me on github using: [${data.username}](https://github.com/${data.username})
+  ✋ For additional questions, Please find me on github using: [${data.username}](https://github.com/${data.username})
   <br>
   ✉️ My email address: ${data.email}
 
