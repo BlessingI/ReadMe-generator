@@ -3,7 +3,7 @@
 ## Description
   A node.js application that uses user input from inquirer to populate a README.md file for user repository. The README.md file is created in the dist directory and can be found [here](./dist/Readme.md)
 
-  [Click on link to see a video of how the application works](https://drive.google.com/file/d/1m8m8yPuwQrkHRSKHcB_swKrkicSa-Iln/view)
+[Click on link to see a video of how the application works](https://drive.google.com/file/d/1m8m8yPuwQrkHRSKHcB_swKrkicSa-Iln/view)
 
 
 ## User Story
@@ -54,8 +54,8 @@ THEN I am taken to the corresponding section of the README
   
     node index.js
 
-
-[ReameGenImage](./assets/images/ReadmeGen.png)
+## Image
+![ReameGenImage](./assets/images/ReadmeGen.png)
 
 
 ## Contributors
